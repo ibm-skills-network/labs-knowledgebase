@@ -1,0 +1,19 @@
+name: Notify Documentation Updates
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+
+jobs:
+  notify-docs-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Documentation Update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.SN_ASSISTANT_TOKEN }}
+          repository: ibm-skills-network/sn-assistant
+          event-type: knowledge-base-update
+          client-payload: '{"repository_url": "", "library_name": "labs", "version": "1"}' 

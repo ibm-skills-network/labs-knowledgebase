@@ -7,13 +7,13 @@ on:
       - 'docs/**'
 
 jobs:
-  notify-docs-update:
+  notify-mcp-docs-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Documentation Update
+      - name: Trigger MCP Update
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.SN_ASSISTANT_TOKEN }}
           repository: ibm-skills-network/sn-assistant
-          event-type: knowledge-base-update
-          client-payload: '{"repository_url": "", "library_name": "labs", "version": "1"}' 
+          event-type: mcp-docs-update
+          client-payload: '{"repository_url": "https://author.skills.network/docs", "library_name": "labs", "version": "1"}' 

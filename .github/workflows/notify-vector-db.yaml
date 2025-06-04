@@ -1,0 +1,19 @@
+name: Notify Documentation Updates
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+
+jobs:
+  notify-vector-db-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vector DB Update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.SN_ASSISTANT_TOKEN }}
+          repository: ibm-skills-network/sn-assistant
+          event-type: vector-database-update
+          client-payload: '{"repository_url": "https://github.com/ibm-skills-network/labs-knowledgebase", "docs_path": "docs", "collection_alias": "labs_docs", "collection_prefix": "labs_"}'

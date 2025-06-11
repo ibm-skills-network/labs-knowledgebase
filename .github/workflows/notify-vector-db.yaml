@@ -1,10 +1,11 @@
-name: Notify Documentation Updates
+name: Notify MCP Docs Update
 
 on:
   push:
     branches: [ main ]
     paths:
       - 'docs/**'
+    workflow_dispatch:
 
 jobs:
   notify-vector-db-update:

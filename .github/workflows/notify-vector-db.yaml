@@ -1,4 +1,4 @@
-name: Notify MCP Docs Update
+name: Notify Vector DB Update
 
 on:
   push:

@@ -9,7 +9,7 @@ If you encounter an error message like "Error occurred while trying to proxy: [I
 For other server-related errors:
 - Simply refresh the entire page in your browser
 - If the problem persists, try restarting your application from the terminal
-- Otherwise, open a support ticket with Tai from the left hand navigation menu
+- Otherwise, ask to open a support ticket 
 
 **Application Not Loading:**
 If your application fails to load or displays errors:
@@ -17,4 +17,4 @@ If your application fails to load or displays errors:
 - Check the terminal for any error messages
 - Ensure all required dependencies are installed
 - Restart your application and try again
-- Otherwise, open a support ticket with Tai from the left hand navigation menu
+- Otherwise, ask to open a support ticket 

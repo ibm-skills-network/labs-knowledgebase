@@ -1,0 +1,8 @@
+{
+  "label": "Lab Tools",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Lab tools are the tools that learners can use to complete their labs."
+  }
+}

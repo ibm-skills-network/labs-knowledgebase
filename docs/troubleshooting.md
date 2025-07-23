@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+---
+
+# Troubleshooting
+
 **Application Proxy Errors:**
 If you encounter an error message like "Error occurred while trying to proxy: [IP address]:[port]/" (for example, "Error occurred while trying to proxy: 172.17.52.96:8888/"), this typically indicates that the application you're trying to access is not running or not properly configured. Here's how to resolve this:
 

@@ -102,6 +102,17 @@ Please follow these steps to resolve this issue:
 - Please note that in AI Classroom, you can't change the model used for a chat after you send your first message.
 - To use a different model, you'll need to create a new chat.
 
+### I can't download .ipynb in JupyterLite
+
+1. **Right-click** the notebook file in the file browser
+2. Select **"Download"** from the context menu
+
+![Download notebook option](/img/download(ipynb).png)
+
+:::warning
+Some users may suggest other methods, but right-clicking the file in the browser and selecting "Download" is the best method for downloading files in JupyterLite.
+:::
+
 ## General troubleshooting
 
 :::info

@@ -109,10 +109,6 @@ Please follow these steps to resolve this issue:
 
 ![Download notebook option](/img/download(ipynb).png)
 
-:::warning
-Some users may suggest other methods, but right-clicking the file in the browser and selecting "Download" is the best method for downloading files in JupyterLite.
-:::
-
 ## General troubleshooting
 
 :::info

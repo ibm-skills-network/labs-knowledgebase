@@ -43,6 +43,16 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 
 :::
 
+### I can't open my application in the browser in Cloud IDE
+
+1. Look for the **Skills Network Toolbox** icon at the bottom of the menu bar located on the left side of the IDE.
+
+2. Then click on **"Launch Your Application"**.
+
+3. In the "Application Port" field, enter the port number your application is running from the given instruction.
+
+4. Click the **"Your Application"** button to open your application in the browser.
+
 ### `Port already in use` error when restarting server
 
 1. Kill the process occupying the port your server is trying to use using the following command:
@@ -61,6 +71,16 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 
 Please note that **practice labs are ungraded** and are hence not marked as completed.
 If you're sure the lab was *not* for practice, then please submit a support ticket using Tai.
+
+### I don't know how to mark my lab as complete
+
+:::info Important
+**Lab completion must be registered from your original Learning Management System (LMS), not from within the lab environment.**
+
+When you finish a lab:
+- **Do NOT** look for a completion button inside the lab
+- **Return to your original course platform** (the LMS you came from) to mark the lab as complete
+:::
 
 ### `Error occurred while trying to proxy` when accessing application
 
@@ -81,6 +101,13 @@ Please follow these steps to resolve this issue:
 
 - Please note that in AI Classroom, you can't change the model used for a chat after you send your first message.
 - To use a different model, you'll need to create a new chat.
+
+### I can't download .ipynb in JupyterLite
+
+1. **Right-click**  (or option-click on mac) the notebook file in the file browser.
+2. Select **"Download"** from the context menu.
+
+![Download notebook option](/img/download(ipynb).png)
 
 ## General troubleshooting
 

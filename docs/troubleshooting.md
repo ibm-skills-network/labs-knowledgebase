@@ -104,8 +104,8 @@ Please follow these steps to resolve this issue:
 
 ### I can't download .ipynb in JupyterLite
 
-1. **Right-click** the notebook file in the file browser
-2. Select **"Download"** from the context menu
+1. **Right-click**  (or option-click on mac) the notebook file in the file browser.
+2. Select **"Download"** from the context menu.
 
 ![Download notebook option](/img/download(ipynb).png)
 

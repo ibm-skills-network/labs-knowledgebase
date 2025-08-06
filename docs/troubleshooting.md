@@ -139,7 +139,20 @@ If your lab appears to be stuck on a loading screen or the loading indicator (li
    - If none of the above steps work, the issue may be on our end
    - Submit a support ticket with details about your browser, operating system, and the steps you've already tried
 
+### Lab loaded but not working
 
+If your lab has loaded successfully but you're experiencing issues with functionality, tools not working, or unexpected behavior, try the following:
+
+1. **Use the Reset Lab button**
+   - Look for the **Reset Lab** button at the bottom left of your screen
+   - Click on it to reset your lab environment to a clean state
+   - This will clear any corrupted files or configurations that might be causing issues
+
+![Reset Lab button](/img/reset.png)
+
+2. **If the reset doesn't help**
+   - Try the troubleshooting steps from the [Lab not loading](#lab-not-loading-loading-sign-is-stagnant) section above
+   - Contact support if the issue persists
 
 ## General troubleshooting
 

@@ -109,6 +109,38 @@ Please follow these steps to resolve this issue:
 
 ![Download notebook option](/img/download(ipynb).png)
 
+### Lab not loading (loading sign is stagnant)
+
+If your lab appears to be stuck on a loading screen or the loading indicator (like the skills network tree) remains stagnant, try the following troubleshooting steps in order:
+
+1. **Refresh the page**
+   - Press `F5` or `Ctrl+R` (Windows/Linux) / `Cmd+R` (Mac) to refresh the browser page
+
+2. **Clear browser cache and cookies**
+   - Open your browser's developer tools (`F12` or `Ctrl+Shift+I`)
+   - Right-click the refresh button and select "Empty Cache and Hard Reload"
+   - Or manually clear cookies and cache from your browser settings
+
+3. **Try a different browser**
+   - Switch to a different browser (Chrome, Firefox, Safari, Edge)
+   - Ensure you're using the latest version of the browser
+
+4. **Restart the lab**
+   - Close the lab tab completely
+   - Return to your course platform
+   - Re-launch the lab from the original link
+
+5. **Check your internet connection**
+   - Ensure you have a stable internet connection
+   - Try disabling VPN if you're using one
+   - Test your connection speed
+
+7. **Create a support ticket**
+   - If none of the above steps work, the issue may be on our end
+   - Submit a support ticket with details about your browser, operating system, and the steps you've already tried
+
+
+
 ## General troubleshooting
 
 :::info

@@ -89,13 +89,7 @@ If you encounter an error message like the following:
 - `Error occurred while trying to proxy: [IP address]:[port]/` 
 - for example, `Error occurred while trying to proxy: 172.17.52.96:8888/`
 
-this typically indicates that the application you're trying to access is not running or not properly configured. 
-
-Please follow these steps to resolve this issue:
-
-- **Do not try to access read-only pages** (as stated in the lab instructions)
-  - Read-only pages don't have running applications behind them, which can cause proxy errors.
-- **Refresh the application** by clicking the small refresh icon at the top of the application's page.
+this error message indicates that the application you're trying to access is not running or is otherwise not accepting traffic. If the lab instructions instructed you to run a command to start your application, please confirm you've run the command and it was successful before trying to access your application.
 
 ### I can't change the model used in my chat in AI Classroom
 

@@ -14,5 +14,5 @@ Labs allow you to:
 - Experiment with different programming languages, frameworks, and tools.
 - Use integrated development environments (IDEs) to write, test, and debug code.
 - Access terminals or command lines to run commands and scripts.
-- Work with databases, cloud services, containers, or orchestration platforms depending on the lab focus.
+- Work with databases, cloud services, containers, or orchestration platforms depending on the focus of the lab.
 - Follow step-by-step instructions to complete tasks and build solutions.

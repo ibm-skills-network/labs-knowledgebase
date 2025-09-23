@@ -51,12 +51,15 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
     - Noun-phrases
     - Relations (Transformer)
     - Syntax
-- Launch Application - This is how you view the application you run within Cloud IDE. Launch Application starts a proxy server that makes your local app accessible through the cloud IDE. You can run it with a built-in live server or with a framework-specific server (e.g., Flask, Express via npm)
+- Launch Application - This is how you view the application you run within Cloud IDE. The **Launch Application** button lets you view applications running inside the Cloud IDE. It starts a proxy server that makes your local app accessible through the IDE. You can use either the built-in live server or a framework-specific server (e.g., Flask for Python, Express for Node.js).
 
   - How to use:
 
-    - Start your server. (Note: If you used the built-in live server a notification with the port opened will appear)
+    - **Start your server**
+      - If you use the built-in live server, a notification will display the port that was opened.  
 
-    - Go to Skills Network Toolbox, and input the port.
+    - Go to **Skills Network Toolbox**, access **Launch Application** and input the port.
 
-    - Press "your application" to access the server within the cloud IDE, or open a new tab to access it from you browser
+    - **Access your application:**  
+      - Click **Your Application** to open the server inside the Cloud IDE, or  
+      - Open it in a new browser tab. 

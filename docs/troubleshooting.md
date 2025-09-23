@@ -174,3 +174,11 @@ If your application fails to load or displays errors:
 - Ensure all required dependencies are installed
 - Restart your application and try again
 - Otherwise, ask to open a support ticket
+
+### Problem with user session
+
+If you encounter an issue with your session, try resetting the lab:
+
+1. Click the **Reset Lab** button at the bottom of the left menu bar.  
+2. **Log out** to complete the reset.  
+3. After logging out, reopen the lab from your original tab.  

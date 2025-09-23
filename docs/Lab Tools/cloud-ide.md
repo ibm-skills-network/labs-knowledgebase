@@ -16,13 +16,13 @@ This area is divided into two sections:
  - Tai's Chat Interface: This interface facilitates communication between the learner and Tai, featuring chat history, and learners' message input field.
  - Lab instructions: These instructions guide learners through the learning activities and exercises.
 
-### Cloud IDE Features
+## Cloud IDE Features
 
 Cloud IDE empowers learners with a comprehensive IDE experience, including:
  - File/folder management: Organize and manage files and folders efficiently.
  - Terminal: Execute commands and interact with the underlying operating system.
 
-#### Skills Network Toolbox:
+### Skills Network Toolbox:
 
 Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the Skills Network Toolbox Icon button located on the left-hand side of the Cloud IDE menu bar. This toolbox offers a variety of tools to enhance the learning experience and facilitate completion of labs:
 
@@ -50,4 +50,15 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
     - Noun-phrases
     - Relations (Transformer)
     - Syntax
-- Launch Application - This is how you view the application you run within Cloud IDE. This will open a tab either within Cloud IDE or your browser
+- Launch Application - This is how you view the application you run within Cloud IDE. The **Launch Application** button lets you view applications running inside the Cloud IDE. It starts a proxy server that makes your local app accessible through the IDE. You can use either the built-in live server or a framework-specific server (e.g., Flask for Python, Express for Node.js).
+
+  - How to use:
+
+    - **Start your server**
+      - If you use the built-in live server, a notification will display the port that was opened.  
+
+    - Go to **Skills Network Toolbox**, access **Launch Application** and input the port.
+
+    - **Access your application:**  
+      - Click **Your Application** to open the server inside the Cloud IDE, or  
+      - Open it in a new browser tab. 

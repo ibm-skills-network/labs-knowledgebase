@@ -538,3 +538,33 @@ ibmcloud ce application create --name myapp --image us.icr.io/${SN_ICR_NAMESPACE
   **`--quiet, -q`**
   Specify this option to reduce the output of the command. This value is optional. The default
    value is `false`.
+
+### `ibmcloud ce application get`
+
+  Display the details of an application.
+
+  **Syntax**
+
+  ```
+  ibmcloud ce application get --name APPLICATION_NAME [--output OUTPUT] [--quiet] [--show-all-revisions]
+  ```
+
+  #### Command Options
+
+  **Required Options**
+
+  **`--name, -n`**
+  The name of the application. This value is required.
+
+  **Display Options**
+
+  **`--show-all-revisions, -r`**
+  Show all revisions for this application. If not specified, only revisions which are configured to receive traffic are shown. This value is optional. The default value is `false`.
+
+  **Output Options**
+
+  **`--output, -o`**
+  Specifies the format of the command output. Valid values are `json`, `yaml`, `jsonpath=JSONPATH_EXPRESSION`, `jsonpath-as-json=JSONPATH_EXPRESSION`, `url`, and `project-url`. Use `jsonpath` to specify the path to an element of the JSON output. This value is optional.
+
+  **`--quiet, -q`**
+  Specify this option to reduce the output of the command. This value is optional. The default value is `false`.

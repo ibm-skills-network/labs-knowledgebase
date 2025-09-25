@@ -45,13 +45,22 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 
 ### I can't open my application in the browser in Cloud IDE
 
-1. Look for the **Skills Network Toolbox** icon at the bottom of the menu bar located on the left side of the IDE.
+Once your live-server or app is running, follow these steps:
 
-2. Then click on **"Launch Your Application"**.
+1. **Open the Skills Network Toolbox**
+   - Look for the **Skills Network Toolbox** icon at the bottom of the menu bar on the left side of the IDE.
 
-3. In the "Application Port" field, enter the port number your application is running from the given instruction.
+2. **Launch Application**
+   - Click on **"Launch Application"** tool.
 
-4. Click the **"Your Application"** button to open your application in the browser.
+3. **Enter the Application Port**
+   - In the **"Application Port"** field, enter the port number your application is running on (as given in your instructions).
+
+4. **Open the Application**
+   - Click the **"Your Application"** button to open your app in the browser.
+
+> **Tip:** If your app doesn’t load, make sure your server is running and that you’ve entered the correct port number.
+
 
 ### `Port already in use` error when restarting server
 
@@ -182,3 +191,15 @@ If you encounter an issue with your session, try resetting the lab:
 1. Click the **Reset Lab** button at the bottom of the left menu bar.  
 2. **Log out** to complete the reset.  
 3. After logging out, reopen the lab from your original tab.  
+
+
+#### How to preview your static page(HTML/CSS/JS)
+
+    - **Start your server**
+      - Write click on your html file.
+
+    - Go to **Skills Network Toolbox**, access **"Launch Application"** tool and input the port.
+
+    - **Access your application:**  
+      - Click the **"Your Application"** button to open the server inside the Cloud IDE, or  
+      - Open it in a new browser tab. 

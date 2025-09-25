@@ -132,7 +132,7 @@ ibmcloud ce application create --name myapp --image us.icr.io/${SN_ICR_NAMESPACE
   [--trusted-profiles-enabled] [--user USER] [--visibility VISIBILITY] [--wait]
   [--wait-timeout WAIT_TIMEOUT]
 
-  ### Command Options
+  #### Command Options
 
   **Required Options**
 
@@ -565,6 +565,76 @@ ibmcloud ce application create --name myapp --image us.icr.io/${SN_ICR_NAMESPACE
 
   **`--output, -o`**
   Specifies the format of the command output. Valid values are `json`, `yaml`, `jsonpath=JSONPATH_EXPRESSION`, `jsonpath-as-json=JSONPATH_EXPRESSION`, `url`, and `project-url`. Use `jsonpath` to specify the path to an element of the JSON output. This value is optional.
+
+  **`--quiet, -q`**
+  Specify this option to reduce the output of the command. This value is optional. The default value is `false`.
+
+### `ibmcloud ce application list`
+
+  List all applications in a project.
+
+  **Syntax**
+
+  ```
+  ibmcloud ce application list [--output OUTPUT] [--quiet] [--sort-by SORT_BY]
+  ```
+
+  #### Command Options
+
+  **Display Options**
+
+  **`--sort-by, -s`**
+  Specifies the column by which to sort the list. Valid values are `name` and `age`. This value is optional. The default value is `name`.
+
+  **Output Options**
+
+  **`--output, -o`**
+  Specifies the format of the command output. Valid values are `json`, `yaml`, `jsonpath=JSONPATH_EXPRESSION`, and `jsonpath-as-json=JSONPATH_EXPRESSION`. Use `jsonpath` to specify the path to an element of the JSON output. This value is optional.
+
+  **`--quiet, -q`**
+  Specify this option to reduce the output of the command. This value is optional. The default value is `false`.
+
+### `ibmcloud ce application logs`
+
+  Display the logs of application instances.
+
+  **Syntax**
+
+  ```
+  ibmcloud ce application logs (--instance APP_INSTANCE | --application APP_NAME) [--all-containers] [--follow] [--output OUTPUT] [--quiet] [--raw] [--tail TAIL] [--timestamps]
+  ```
+
+  #### Command Options
+
+  **Required Options**
+
+  **`--application, --app, -a, --name, -n`**
+  Display the logs of all the instances of the specified application. This value is required if `--instance` is not specified.
+
+  **`--instance, -i`**
+  The name of a specific application instance. Use the `app get` command to find the instance name. This value is required if `--application` is not specified.
+
+  **Display Options**
+
+  **`--all-containers, --all`**
+  Display the logs of all containers of the specified application instances. This value is optional. The default value is `false`.
+
+  **`--follow, -f`**
+  Follow the logs of application instances. Use this option to stream logs of application instances. If you specify the `--follow` option, you must enter Ctrl+C to terminate this log command. This value is optional. The default value is `false`.
+
+  **`--raw, -r`**
+  Display logs without instance and container labels. This value is optional. The default value is `false`.
+
+  **`--tail, -t`**
+  Limit the display of logs of containers of the specified application instances to a maximum number of recent lines per container. For example, to display the last 3 lines of the logs of the containers of the specified application instances, specify `--tail 3`. If this option is not specified, all lines of the logs of the containers of the specified application instances are displayed. This value is optional. The default value is `-1`.
+
+  **`--timestamps, --ts`**
+  Include timestamps on each line in the log output. This value is optional. The default value is `false`.
+
+  **Output Options**
+
+  **`--output, -o`**
+  Specifies the format of the command output. Valid values are `json`, `yaml`, `jsonpath=JSONPATH_EXPRESSION`, and `jsonpath-as-json=JSONPATH_EXPRESSION`. Use `jsonpath` to specify the path to an element of the JSON output. This value is optional.
 
   **`--quiet, -q`**
   Specify this option to reduce the output of the command. This value is optional. The default value is `false`.

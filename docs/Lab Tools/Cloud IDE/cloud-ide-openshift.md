@@ -23,7 +23,7 @@ Cloud IDE empowers learners with a comprehensive IDE experience, including:
  - Terminal: Execute commands and interact with the underlying operating system.
  - Docker and OpenShift integration: The learner is provided both an OpenShift Project (with value `$SN_ICR_NAMESPACE`) and an ICR (IBM Container Registry) namespace (with the value `us.icr.io/$SN_ICR_NAMESPACE`) to store Docker images.
 
-#### Skills Network Toolbox:
+## Skills Network Toolbox:
 
 Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the Skills Network Toolbox Icon button located on the left-hand side of the Cloud IDE menu bar. This toolbox offers a variety of tools to enhance the learning experience and facilitate completion of labs:
 
@@ -51,38 +51,31 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
     - Noun-phrases
     - Relations (Transformer)
     - Syntax
-- Launch Application - This is how you view the application you run within Cloud IDE. The **"Launch Application"** button lets you view applications running inside the Cloud IDE. It starts a proxy server that makes your local app accessible through the IDE. You can use either the built-in live server or a framework-specific server (e.g., Flask for Python, Express for Node.js).
+- Launch Application - This is how you view the application you run within Cloud IDE. 
 
-  - Use cases:
 
-      1. Previewing static sites or front-end projects
-        - HTML/CSS/JS projects using live-server.
-      
-      1. Integration testing
-        - Test APIs or webhooks from apps running inside the IDE. For example, if your backend server runs in the IDE, you can point Postman or a front-end app to the proxied URL.
-      
-      1. Cross-browser testing
-        - Access the proxied app from different browsers on the same machine or on a device that can reach the proxy URL, to test responsiveness and behavior.
+### Launch Application
 
-  - How to use:
+The **"Launch Application"** button lets you view applications running inside the Cloud IDE. It starts a proxy server that makes your local app accessible through the IDE. You can use either the built-in live server or a framework-specific server (e.g., Flask for Python, Express for Node.js).
 
-    - **Start your server**
-      - If you use the built-in live server, a notification will display the port that was opened.  
+**Use cases:**
 
-    - Go to **Skills Network Toolbox**, access **"Launch Application"** tool and input the port.
+- **Previewing static sites or front-end projects:**
+  HTML/CSS/JS projects using live-server.
 
-    - **Access your application:**  
-      - Click the **"Your Application"** button to open the server inside the Cloud IDE, or  
-      - Open it in a new browser tab. 
+- **Integration testing:**
+  Test APIs or webhooks from apps running inside the IDE. For example, if your backend server runs in the IDE, you can point Postman or a front-end app to the proxied URL.
 
-  
-#### How to preview your static page(HTML/CSS/JS)
+- **Cross-browser testing:**
+  Access the proxied app from different browsers on the same machine or on a device that can reach the proxy URL, to test responsiveness and behavior.
 
-    - **Start your server**
-      - Write click on your html file.
+**How to use:**
 
-    - Go to **Skills Network Toolbox**, access **"Launch Application"** tool and input the port.
+1. **Start your server**
+   - If you use the built-in live server, a notification will display the port that was opened.
 
-    - **Access your application:**  
-      - Click the **"Your Application"** button to open the server inside the Cloud IDE, or  
-      - Open it in a new browser tab. 
+2. Go to **Skills Network Toolbox**, access **"Launch Application"** tool and input the port.
+
+3. **Access your application:**
+   - Click the **"Your Application"** button to open the server inside the Cloud IDE, or
+   - Open it in a new browser tab.

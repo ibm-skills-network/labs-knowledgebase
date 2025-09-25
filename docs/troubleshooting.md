@@ -186,20 +186,8 @@ If your application fails to load or displays errors:
 
 ### Problem with user session
 
-If you encounter an issue with your session, try resetting the lab:
+If you encounter an issue within your lab session, reset the lab:
 
 1. Click the **Reset Lab** button at the bottom of the left menu bar.  
 2. **Log out** to complete the reset.  
-3. After logging out, reopen the lab from your original tab.  
-
-
-#### How to preview your static page(HTML/CSS/JS)
-
-    - **Start your server**
-      - Write click on your html file.
-
-    - Go to **Skills Network Toolbox**, access **"Launch Application"** tool and input the port.
-
-    - **Access your application:**  
-      - Click the **"Your Application"** button to open the server inside the Cloud IDE, or  
-      - Open it in a new browser tab. 
+3. After logging out, reopen the lab.  

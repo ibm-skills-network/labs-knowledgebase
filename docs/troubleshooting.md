@@ -78,7 +78,7 @@ Once your live-server or app is running, follow these steps:
 
 ### I did not receive a grade or see completion marked for a lab I finished
 
-Please note that **practice labs are ungraded** and are hence not marked as completed.
+Please note that **practice labs are ungraded** and are hence not marked as completed (In Cousera "Ungraded App Items" will not be graded and may stay in the Results Pending state. These are practise labs and will not be graded.).
 If you're sure the lab was *not* for practice, then please submit a support ticket using Tai.
 
 ### I don't know how to mark my lab as complete

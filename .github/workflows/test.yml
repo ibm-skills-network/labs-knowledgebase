@@ -1,0 +1,35 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  test:
+    name: Tests if the code builds successfully
+    runs-on: ubuntu-latest
+    if: github.event_name != 'schedule'
+    steps:
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Test Build
+        run: yarn build
+      - name: Test Serve
+        run: yarn serve
+    

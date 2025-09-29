@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name != 'schedule'
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -26,10 +28,20 @@ jobs:
           cache: yarn
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn install
 
       - name: Test Build
         run: yarn build
+        
       - name: Test Serve
-        run: yarn serve
+        run: yarn serve & sleep 10
     
+      - name: Test curl
+        run: |
+            RESPONSE=$(curl -s -X GET http://localhost:3000)
+            if echo "$RESPONSE" | grep -q "Skills Network Labs Knowledgebase"; then
+              echo "Response contains expected text."
+            else
+              echo "Response does not contain expected text."
+              exit 1
+            fi

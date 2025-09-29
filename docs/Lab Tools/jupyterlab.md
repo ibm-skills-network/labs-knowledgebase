@@ -45,14 +45,12 @@ Holds chat history between learner and Tai, and learner message input field
   | Granite 34B Code Instruct | `ibm/granite-34b-code-instruct` |
   | MPT 7B Instruct 2 | `ibm/mpt-7b-instruct2` |
   | Merlinite 7B | `ibm-mistralai/merlinite-7b` |
-  | Mixtral 8x7B Instruct v0.1 | `mistralai/mixtral-8x7b-instruct-v01`
-   |
+  | Mixtral 8x7B Instruct v0.1 | `mistralai/mixtral-8x7b-instruct-v01`|
   | Llama 3 8B Instruct | `meta-llama/llama-3-8b-instruct` |
   | FLAN-T5-XL | `google/flan-t5-xl` |
   | Llama 3.1 8B Instruct | `meta-llama/llama-3-1-8b-instruct` |
   | Pixtral 12B | `mistralai/pixtral-12b` |
-  | CodeLlama 34B Instruct HF | `codellama/codellama-34b-instruct-hf`
-  |
+  | CodeLlama 34B Instruct HF | `codellama/codellama-34b-instruct-hf`|
   | Llama 3 70B Instruct | `meta-llama/llama-3-70b-instruct` |
   | Llama 3.1 70B Instruct | `meta-llama/llama-3-1-70b-instruct` |
   | Llama 3.3 70B Instruct | `meta-llama/llama-3-3-70b-instruct` |
@@ -63,10 +61,8 @@ Holds chat history between learner and Tai, and learner message input field
   | Llama 3 405B Instruct | `meta-llama/llama-3-405b-instruct` |
   | SLATE 125M English RTRVR | `ibm/slate-125m-english-rtrvr` |
   | SLATE 30M English RTRVR | `ibm/slate-30m-english-rtrvr` |
-  | Llama 3.2 90B Vision Instruct |
-  `meta-llama/llama-3-2-90b-vision-instruct` |
-  | Llama 3.2 11B Vision Instruct |
-  `meta-llama/llama-3-2-11b-vision-instruct` |
+  | Llama 3.2 90B Vision Instruct | `meta-llama/llama-3-2-90b-vision-instruct` |
+  | Llama 3.2 11B Vision Instruct | `meta-llama/llama-3-2-11b-vision-instruct` |
   | Llama Guard 3 11B Vision | `llama-guard-3-11b-vision` |
   | Llama 3.2 1B Instruct | `meta-llama/llama-3-2-1b-instruct` |
   | Llama 3.2 3B Instruct | `meta-llama/llama-3-2-3b-instruct` |
@@ -74,11 +70,9 @@ Holds chat history between learner and Tai, and learner message input field
   | Granite 3 8B Instruct | `ibm/granite-3-8b-instruct` |
   | Granite 3.2 8B Instruct | `ibm/granite-3-2-8b-instruct` |
   | Granite 3.3 8B Instruct | `ibm/granite-3-3-8b-instruct` |
-  | Mistral Small 3.1 24B Instruct |
-  `mistralai/mistral-small-3-1-24b-instruct-2503` |
+  | Mistral Small 3.1 24B Instruct | `mistralai/mistral-small-3-1-24b-instruct-2503` |
   | Mistral Medium 2505 | `mistralai/mistral-medium-2505` |
-  | Llama 4 Maverick 17B |
-  `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` |
+  | Llama 4 Maverick 17B | `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` |
   | Llama 4 Scout 17B | `meta-llama/llama-4-scout-17b-16e-instruct` |
 
 #### OpenAI

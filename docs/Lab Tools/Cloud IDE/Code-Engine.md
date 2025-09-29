@@ -12,7 +12,7 @@ No login/logout is required — authentication is already handled for you.
 - **Job** – a one-off or recurring workload that runs to completion.  
 - **Function** – lightweight serverless functions.
 
-## General CLI Structure:
+## General CLI Structure
 
 All Code Engine commands use:
 

@@ -35,7 +35,7 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
 - Big Data
   - Apache Airflow
 - Cloud
-  - Code Engine
+  - [Code Engine](./Code-Engine.md)
 - Embeddable AI
   - Text-To-Speech
   - Speech-To-Text
@@ -79,3 +79,10 @@ The **"Launch Application"** button lets you view applications running inside th
 3. **Access your application:**
    - Click the **"Your Application"** button to open the server inside the Cloud IDE, or
    - Open it in a new browser tab.
+
+---
+
+## DISCLAIMER
+
+  - If the user is inactive for an hour, the session will be deleted
+  - After 12 hourse the session will be deleted, even if the user is active

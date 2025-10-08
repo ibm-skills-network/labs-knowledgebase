@@ -189,5 +189,5 @@ If your application fails to load or displays errors:
 If you encounter an issue within your lab session, reset the lab:
 
 1. Click the **Reset Lab** button at the bottom of the left menu bar for instructions on how to reset the lab.
-2. **Log out** to complete the reset.  
+2. You will be instructed to  **Log out** to complete the reset.  
 3. After logging out, reopen the lab.  

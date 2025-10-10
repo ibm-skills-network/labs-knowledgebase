@@ -48,7 +48,7 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 Once your live-server or app is running, follow these steps:
 
 1. **Open the Skills Network Toolbox**
-   - Look for the **Skills Network Toolbox** icon at the bottom of the menu bar on the left side of the IDE.
+   - Look for the **Skills Network** icon (looks like a gray tree icon) at the bottom of the sidebar on the left side of the IDE.
 
 2. **Launch Application**
    - Click on **"Launch Application"** tool.
@@ -78,7 +78,7 @@ Once your live-server or app is running, follow these steps:
 
 ### I did not receive a grade or see completion marked for a lab I finished
 
-Please note that **practice labs are ungraded** and are hence not marked as completed (In Cousera "Ungraded App Items" will not be graded and may stay in the Results Pending state. These are practise labs and will not be graded.).
+Please note that **practice labs are ungraded** and are hence not marked as completed (In Coursera "Ungraded App Items" will not be graded and may stay in the Results Pending state. These are practise labs and will not be graded.).
 If you're sure the lab was *not* for practice, then please submit a support ticket using Tai.
 
 ### I don't know how to mark my lab as complete
@@ -188,6 +188,6 @@ If your application fails to load or displays errors:
 
 If you encounter an issue within your lab session, reset the lab:
 
-1. Click the **Reset Lab** button at the bottom of the left menu bar.  
-2. **Log out** to complete the reset.  
+1. Click the **Reset Lab** button at the bottom of the left menu bar for instructions on how to reset the lab.
+2. You will be instructed to  **Log out** to complete the reset.  
 3. After logging out, reopen the lab.  

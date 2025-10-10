@@ -84,4 +84,4 @@ The **"Launch Application"** button lets you view applications running inside th
 ## DISCLAIMER
 
   - If the user is inactive for an hour, the session will be deleted
-  - After 12 hourse the session will be deleted, even if the user is active
+  - After 12 hours the session will be deleted, even if the user is active

@@ -53,15 +53,12 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
     - Syntax
 - Launch Application - This is how you view the application you run within Cloud IDE. 
 
+#### Viewing your running Applications
 
-### Launch Application
+As part of your lab, you may start a web server that accepts traffic to:
 
-The **"Launch Application"** button lets you view applications running inside the Cloud IDE. It starts a proxy server that makes your local app accessible through the IDE. You can use either the built-in live server or a framework-specific server (e.g., Flask for Python, Express for Node.js).
-
-**Use cases:**
-
-- **Previewing static sites or front-end projects:**
-  HTML/CSS/JS projects using live-server.
+- **Preview static sites or front-end projects:**
+  Viewing your HTML/CSS/JS projects with live-server.
 
 - **Integration testing:**
   Test APIs or webhooks from apps running inside the IDE. For example, if your backend server runs in the IDE, you can point Postman or a front-end app to the proxied URL.
@@ -69,7 +66,9 @@ The **"Launch Application"** button lets you view applications running inside th
 - **Cross-browser testing:**
   Access the proxied app from different browsers on the same machine or on a device that can reach the proxy URL, to test responsiveness and behavior.
 
-**How to use:**
+After you've done this, you can use the launch application button to view your application.
+
+#### How to use:
 
 1. **Start your server**
    - If you use the built-in live server, a notification will display the port that was opened.

@@ -51,7 +51,7 @@ Within Cloud IDE, learners can access the Skills Network Toolbox by clicking the
     - Noun-phrases
     - Relations (Transformer)
     - Syntax
-- Launch Application - This is how you view the application you run within Cloud IDE. 
+- Launch Application - This is how you view applications you run within Cloud IDE. 
 
 
 ### Launch Application

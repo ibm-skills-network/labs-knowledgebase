@@ -48,7 +48,7 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 Once your live-server or app is running, follow these steps:
 
 1. **Open the Skills Network Toolbox**
-   - Look for the **Skills Network** icon (looks like a gray tree icon) at the bottom of the sidebar on the left side of the IDE.
+   - Look for the **Skills Network** icon (looks like a gray tree icon) at the bottom of the sidebar on the left side of the IDE. ![skills Network Icon looks like a gray tree with nodes at the end of the branches](/img/sn_toolbox.png)
 
 2. **Launch Application**
    - Click on **"Launch Application"** tool.

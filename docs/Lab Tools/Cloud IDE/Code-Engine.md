@@ -1,6 +1,6 @@
 # Code Engine Reference
 
-The **Code Engine** is a plugin for the IBM Cloud that lets you manage **projects**, **applications**, **jobs**, and **functions** in IBM Cloud Code Engine directly from the terminal.
+**Code Engine** is a fully-managed, serverless platform for running containers on IBM Cloud. The IBM Cloud CLI has a code engine plugin that lets you manage **projects**, **applications**, **jobs**, and **functions** in IBM Cloud Code Engine directly from the terminal.
 
 You will already be logged in to the IBM Cloud CLI when you start your lab. Skills Network Labs provides an account for you to use, and you will never need to log in to IBM Cloud yourself.
 

@@ -6,7 +6,7 @@ You will already be logged in to the IBM Cloud CLI when you start your lab. Skil
 
 ## Basic Concepts:
 
-- **Project** – a workspace that groups your apps, jobs, and functions, users should not access this.  
+- **Project** – a workspace that groups your apps, jobs, and functions. A single project is provided for your use. You cannot create a new project or modify the project that we provide.  
 - **Application (App)** – a containerized service that scales automatically based on requests.  
 - **Job** – a one-off or recurring workload that runs to completion.  
 - **Function** – lightweight serverless functions.

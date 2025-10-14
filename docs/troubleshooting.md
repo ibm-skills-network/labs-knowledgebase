@@ -157,6 +157,12 @@ If your lab has loaded successfully but you're experiencing issues with function
    - Try the troubleshooting steps from the [Lab not loading](#lab-not-loading-loading-sign-is-stagnant) section above
    - Contact support if the issue persists
 
+### Kernel Status Unknown
+
+If the kernel status is unknown, then reset the kernel. To reset the kernal:
+
+- In the Jupyter menu, navigate to ```Kernel``` > ```Restart Kernel```. If this doesn't resolve the issue, try ```Kernel``` > ```Kernal and Clear...``` or ```Kernel``` > ```Restart Kernel and Run All```.
+
 ## General troubleshooting
 
 :::info

@@ -6,6 +6,10 @@ sidebar_position: 3
 
 This learning environment is called "Cloud IDE", it is Theia-based, offering functionalities like file/folder management, a terminal, and more. It operates on a Ubuntu foundation and is enabled for working with Docker and OpenShift.
 
+## Working Directory
+
+The base directory for all learner projects is ```/home/project```. All files and folders created during lab exercises will be stored in this directory by default.
+
 ### Layout
 
 #### Right side: 
@@ -16,7 +20,7 @@ This area is divided into two sections:
  - Tai's Chat Interface: This interface facilitates communication between the learner and Tai, featuring chat history, and learners' message input field.
  - Lab instructions: These instructions guide learners through the learning activities and exercises.
 
-### Cloud IDE Features
+## Cloud IDE Features
 
 Cloud IDE empowers learners with a comprehensive IDE experience, including:
  - File/folder management: Organize and manage files and folders efficiently.

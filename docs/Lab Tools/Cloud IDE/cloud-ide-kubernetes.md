@@ -6,6 +6,10 @@ sidebar_position: 2
 
 This learning environment is called "Cloud IDE", it is Theia-based, offering functionalities like file/folder management, a terminal, and more. It operates on a Ubuntu foundation and is enabled for working with Docker and Kubernetes.
 
+## Working Directory
+
+The base directory for all learner projects is ```/home/project```. All files and folders created during lab exercises will be stored in this directory by default.
+
 ### Layout
 
 #### Right side: 

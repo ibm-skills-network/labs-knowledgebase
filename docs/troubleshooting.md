@@ -159,7 +159,7 @@ If your lab has loaded successfully but you're experiencing issues with function
 
 ### Kernel Status Unknown
 
-If the kernel status is unknown, then reset the kernel. To reset the kernal:
+If the kernel status is unknown, then reset the kernel. To reset the kernel:
 
 - In the Jupyter menu, navigate to ```Kernel``` > ```Restart Kernel```. If this doesn't resolve the issue, try ```Kernel``` > ```Kernal and Clear...``` or ```Kernel``` > ```Restart Kernel and Run All```.
 

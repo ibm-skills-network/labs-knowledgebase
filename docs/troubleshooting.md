@@ -45,13 +45,22 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 
 ### I can't open my application in the browser in Cloud IDE
 
-1. Look for the **Skills Network Toolbox** icon at the bottom of the menu bar located on the left side of the IDE.
+Once your live-server or app is running, follow these steps:
 
-2. Then click on **"Launch Your Application"**.
+1. **Open the Skills Network Toolbox**
+   - Look for the **Skills Network** icon (looks like a gray tree icon) at the bottom of the sidebar on the left side of the IDE. ![skills Network Icon looks like a gray tree with nodes at the end of the branches](/img/sn_toolbox.png)
 
-3. In the "Application Port" field, enter the port number your application is running from the given instruction.
+2. **Launch Application**
+   - Click on **"Launch Application"** tool.
 
-4. Click the **"Your Application"** button to open your application in the browser.
+3. **Enter the Application Port**
+   - In the **"Application Port"** field, enter the port number your application is running on (as given in your instructions).
+
+4. **Open the Application**
+   - Click the **"Your Application"** button to open your app in the browser.
+
+> **Tip:** If your app doesn’t load, make sure your server is running and that you’ve entered the correct port number.
+
 
 ### `Port already in use` error when restarting server
 
@@ -69,7 +78,7 @@ in the lab's terminal (which you can quickly launch using `CTRL`+`SHIFT`+`` ` ``
 
 ### I did not receive a grade or see completion marked for a lab I finished
 
-Please note that **practice labs are ungraded** and are hence not marked as completed.
+Please note that **practice labs are ungraded** and are hence not marked as completed (In Coursera "Ungraded App Items" will not be graded and may stay in the Results Pending state. These are practise labs and will not be graded.).
 If you're sure the lab was *not* for practice, then please submit a support ticket using Tai.
 
 ### I don't know how to mark my lab as complete
@@ -148,6 +157,12 @@ If your lab has loaded successfully but you're experiencing issues with function
    - Try the troubleshooting steps from the [Lab not loading](#lab-not-loading-loading-sign-is-stagnant) section above
    - Contact support if the issue persists
 
+### Kernel Status Unknown
+
+If the kernel status is unknown, then reset the kernel. To reset the kernel:
+
+- In the Jupyter menu, navigate to ```Kernel``` > ```Restart Kernel```. If this doesn't resolve the issue, try ```Kernel``` > ```Kernal and Clear...``` or ```Kernel``` > ```Restart Kernel and Run All```.
+
 ## General troubleshooting
 
 :::info
@@ -174,3 +189,11 @@ If your application fails to load or displays errors:
 - Ensure all required dependencies are installed
 - Restart your application and try again
 - Otherwise, ask to open a support ticket
+
+### Problem with user session
+
+If you encounter an issue within your lab session, reset the lab:
+
+1. Click the **Reset Lab** button at the bottom of the left menu bar for instructions on how to reset the lab.
+2. You will be instructed to  **Log out** to complete the reset.  
+3. After logging out, reopen the lab.  

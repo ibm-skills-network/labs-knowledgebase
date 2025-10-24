@@ -1,5 +1,7 @@
 import CloudIDECommon from './_CloudIDECommon.mdx';
 import CodeEngine from './_CodeEngine.mdx'
+import CloudIDEDatabases from './_CloudIDEDatabases.mdx'
+import Disclaimer from './_CloudIDEDisclaimer.mdx'
 
 # Cloud IDE Openshift
 
@@ -9,4 +11,12 @@ _Cloud IDE with OpenShift_ is a VS Code-like IDE. It is enabled for working with
 
 ---
 
+<CloudIDEDatabases/>
+
+---
+
 <CodeEngine/>
+
+---
+
+<Disclaimer/>

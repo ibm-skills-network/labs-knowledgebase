@@ -10,3 +10,10 @@ _Cloud IDE_ is a VS Code-like IDE.
 ---
 
 <CodeEngine/>
+
+---
+
+## DISCLAIMER
+
+  - If the user is inactive for an hour, the session will be deleted
+  - After 12 hours the session will be deleted, even if the user is active

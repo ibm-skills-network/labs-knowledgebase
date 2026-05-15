@@ -57,7 +57,6 @@ Holds chat history between learner and Tai, and learner message input field
   | GPT-NeoX-20B | `eleutherai/gpt-neox-20b` |
   | SLATE 125M English RTRVR | `ibm/slate-125m-english-rtrvr` |
   | SLATE 30M English RTRVR | `ibm/slate-30m-english-rtrvr` |
-  | Llama 3.2 11B Vision Instruct | `meta-llama/llama-3-2-11b-vision-instruct` |
   | Llama Guard 3 11B Vision | `llama-guard-3-11b-vision` |
   | Llama 3.2 1B Instruct | `meta-llama/llama-3-2-1b-instruct` |
   | Llama 3.2 3B Instruct | `meta-llama/llama-3-2-3b-instruct` |

@@ -27,12 +27,9 @@ Holds chat history between learner and Tai, and learner message input field
 #### Anthropic
 | Model Name | Model ID |
   |------------|----------|
-  | Claude 3.5 Sonnet | `claude-3-5-sonnet` |
-  | Claude 3 Opus | `claude-3-opus` |
-  | Claude 3 Haiku | `claude-3-haiku` |
-  | Claude 3.5 Sonnet (2025-02-19) | `claude-3-7-sonnet-20250219` |
-  | Claude Opus 4 (2025-05-14) | `claude-opus-4-20250514` |
-  | Claude Sonnet 4 (2025-05-14) | `claude-sonnet-4-20250514` |
+  | Claude 4 Sonnet | `claude-sonnet-4-6` |
+  | Claude 4 Opus | `claude-opus-4-7` |
+  | Claude 4 Haiku | `claude-haiku-4-5-20251001` |
 
 #### Watsonx AI Models
 
@@ -58,10 +55,8 @@ Holds chat history between learner and Tai, and learner message input field
   | StarCoder | `bigcode/starcoder` |
   | FLAN-UL2 | `google/flan-ul2` |
   | GPT-NeoX-20B | `eleutherai/gpt-neox-20b` |
-  | Llama 3 405B Instruct | `meta-llama/llama-3-405b-instruct` |
   | SLATE 125M English RTRVR | `ibm/slate-125m-english-rtrvr` |
   | SLATE 30M English RTRVR | `ibm/slate-30m-english-rtrvr` |
-  | Llama 3.2 90B Vision Instruct | `meta-llama/llama-3-2-90b-vision-instruct` |
   | Llama 3.2 11B Vision Instruct | `meta-llama/llama-3-2-11b-vision-instruct` |
   | Llama Guard 3 11B Vision | `llama-guard-3-11b-vision` |
   | Llama 3.2 1B Instruct | `meta-llama/llama-3-2-1b-instruct` |
@@ -78,21 +73,9 @@ Holds chat history between learner and Tai, and learner message input field
 #### OpenAI
   | Model Name | Model ID |
   |------------|----------|
-  | GPT-5 | `gpt-5` |
-  | GPT-5 Mini | `gpt-5-mini` |
-  | GPT-5 Nano | `gpt-5-nano` |
-  | GPT-5 Chat Latest | `gpt-5-chat-latest` |
-  | O3 Mini | `o3-mini` |
-  | GPT-4.1 | `gpt-4.1` |
-  | GPT-4.1 Mini | `gpt-4.1-mini` |
-  | GPT-4.1 Nano | `gpt-4.1-nano` |
-  | GPT-4o Mini | `gpt-4o-mini` |
-  | GPT-4o | `gpt-4o` |
-  | GPT-4 Turbo | `gpt-4-turbo` |
-  | GPT-4 | `gpt-4` |
-  | GPT-3.5 Turbo | `gpt-3.5-turbo` |
-  | GPT-3.5 Turbo Instruct | `gpt-3.5-turbo-instruct` |
-  | GPT-4.5 Preview | `gpt-4.5-preview` |
+  | GPT-5 | `gpt-5.5` |
+  | GPT-5 Mini | `gpt-5.4-mini` |
+  | GPT-5 Nano | `gpt-5.4-nano` |
   | Text Embedding 3 Small | `text-embedding-3-small` |
   | Text Embedding 3 Large | `text-embedding-3-large` |
   | Text Embedding Ada 002 | `text-embedding-ada-002` |

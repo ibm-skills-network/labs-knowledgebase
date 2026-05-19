@@ -71,5 +71,6 @@ Holds chat history between learner and Tai, and learner message input field
   | Text Embedding 3 Small | `text-embedding-3-small` |
   | Text Embedding 3 Large | `text-embedding-3-large` |
   | Text Embedding Ada 002 | `text-embedding-ada-002` |
+  | GPT Image 2 | `gpt-image-2` |
   | GPT Image 1.5 | `gpt-image-1.5` |
   | GPT-Image-1-Mini | `gpt-image-1-mini` | 

@@ -28,8 +28,8 @@ Holds chat history between learner and Tai, and learner message input field
 | Model Name | Model ID |
   |------------|----------|
   | Claude 4 Haiku | `claude-haiku-4-5-20251001` |
-  | Claude 4 Sonnet | `claude-sonnet-4-6` |
-  | Claude 4 Opus | `claude-opus-4-7` |
+  | Claude 4.6 Sonnet | `claude-sonnet-4-6` |
+  | Claude 4.7 Opus | `claude-opus-4-7` |
   | Claude 4.5 Sonnet | `claude-sonnet-4-5-2050929` |
   | Claude 4.1 Opus | `claude-opus-4-1-20250805` |
   | Claude 4.5 Opus | `claude-opus-4-5-20251101` |
@@ -55,7 +55,7 @@ Holds chat history between learner and Tai, and learner message input field
 #### OpenAI
   | Model Name | Model ID |
   |------------|----------|
-  | GPT-5 | `gpt-5.5` |
+  | GPT-5.5 | `gpt-5.5` |
   | GPT-5.4 | `gpt-5.4` |
   | GPT-5.4 Mini | `gpt-5.4-mini` |
   | GPT-5.4 Nano | `gpt-5.4-nano` |

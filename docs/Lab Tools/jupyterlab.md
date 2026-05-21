@@ -39,10 +39,6 @@ Holds chat history between learner and Tai, and learner message input field
 
 | Model Name | Model ID |
 |------------|----------|
-| SLATE 125M English RTRVR v2 | `ibm/slate-125m-english-rtrvr-v2` |
-| SLATE 30M English RTRVR v2 | `ibm/slate-30m-english-rtrvr-v2` |
-| Llama 3.2 11B Vision Instruct | `meta-llama/llama-3-2-11b-vision-instruct` |
-| Llama Guard 3 11B Vision | `meta-llama/llama-guard-3-11b-vision` |
 | Granite 3 8B Instruct | `ibm/granite-3-8b-instruct` |
 | Granite 3.2 8B Instruct | `ibm/granite-3-2-8b-instruct` |
 | Granite 3.3 8B Instruct | `ibm/granite-3-3-8b-instruct` |

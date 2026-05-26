@@ -46,7 +46,6 @@ Holds chat history between learner and Tai, and learner message input field
 | Mistral Medium 2505 | `mistralai/mistral-medium-2505` |
 | Llama 4 Maverick 17B | `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` |
 | Granite 4 H Small | `ibm/granite-4-h-small` |
-| Granite 8B Code Instruct | `ibm/granite-8b-code-instruct` |
 
 #### OpenAI
   | Model Name | Model ID |

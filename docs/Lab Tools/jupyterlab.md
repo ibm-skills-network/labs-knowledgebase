@@ -39,9 +39,6 @@ Holds chat history between learner and Tai, and learner message input field
 
 | Model Name | Model ID |
 |------------|----------|
-| Granite 3 8B Instruct | `ibm/granite-3-8b-instruct` |
-| Granite 3.2 8B Instruct | `ibm/granite-3-2-8b-instruct` |
-| Granite 3.3 8B Instruct | `ibm/granite-3-3-8b-instruct` |
 | Mistral Small 3.1 24B Instruct | `mistralai/mistral-small-3-1-24b-instruct-2503` |
 | Mistral Medium 2505 | `mistralai/mistral-medium-2505` |
 | Llama 4 Maverick 17B | `meta-llama/llama-4-maverick-17b-128e-instruct-fp8` |

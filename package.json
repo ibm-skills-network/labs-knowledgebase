@@ -30,7 +30,18 @@
     "webpackbar": "^7.0.0",
     "gray-matter": "npm:@11ty/gray-matter@^2.1.0",
     "uuid": "^11.1.1",
-    "serialize-javascript": "^7.0.5"
+    "serialize-javascript": "^7.0.5",
+    "brace-expansion": "^1.1.18",
+    "js-yaml": "^4.3.1",
+    "fast-uri": "^3.1.5",
+    "shell-quote": "^1.9.0",
+    "nanoid": "^3.3.18",
+    "postcss": "^8.5.26",
+    "http-proxy-middleware": "^2.0.10",
+    "webpack-dev-server": "^5.2.6",
+    "body-parser": "^1.20.6",
+    "svgo": "^3.3.4",
+    "image-size": "npm:@localnerve/image-size@2.1.2"
   },
   "browserslist": {
     "production": [

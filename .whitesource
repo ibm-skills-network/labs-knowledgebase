@@ -2,8 +2,7 @@
   "settingsInheritedFrom": "ibm-skills-network/mend-config@main",
   "remediateSettings": {
     "lockFileMaintenance": {
-      "enabled": true,
-      "schedule": ["before 5am on monday"]
+      "enabled": true
     },
     "packageRules": [
       {

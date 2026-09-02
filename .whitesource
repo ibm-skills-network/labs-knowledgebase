@@ -1,3 +1,14 @@
 {
-  "settingsInheritedFrom": "ibm-skills-network/mend-config@main"
+  "settingsInheritedFrom": "ibm-skills-network/mend-config@main",
+  "remediateSettings": {
+    "lockFileMaintenance": {
+      "enabled": true
+    },
+    "packageRules": [
+      {
+        "matchPackageNames": ["react", "react-dom"],
+        "groupName": "react"
+      }
+    ]
+  }
 }

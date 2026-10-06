@@ -25,6 +25,8 @@ FRONT_MATTER = re.compile(r"^---\n(.*?)\n---\n", re.S)
 IMPORT = re.compile(r"^import\s+(\w+)\s+from\s+['\"](.+?)['\"];?\s*$", re.M)
 # Fenced blocks and inline code are literal text in MDX, so imports/components inside them are left alone
 CODE = re.compile(r"(^(`{3,}|~{3,}).*?^\2[ \t]*$|`[^`\n]+`)", re.M | re.S)
+# Only the page content between these markers is embedded; files without markers (e.g. partials) are embedded whole
+EMBED = re.compile(r"<!--\s*embed:start\s*-->(.*?)<!--\s*embed:end\s*-->", re.S)
 
 
 def post(url, data, headers):
@@ -87,6 +89,11 @@ def render(path):
         if partial.endswith((".md", ".mdx"))
     }
 
+    marked = EMBED.findall(content)
+    if marked:
+        content = "\n".join(marked)
+        segments = CODE.split(content)
+
     def render_prose(text):
         for name, partial in partials.items():
             text = re.sub(rf"<{name}\s*/>", lambda _: render(partial)[0], text)
@@ -105,9 +112,11 @@ def render(path):
 
 
 def page_url(path, docs_path, base_url, meta):
-    slug = (
-        meta.get("slug") or "/" + os.path.splitext(os.path.relpath(path, docs_path))[0]
-    )
+    slug = meta.get("slug")
+    if not slug:
+        slug = "/" + os.path.splitext(os.path.relpath(path, docs_path))[0]
+        # Docusaurus serves index/README docs at their folder's URL
+        slug = re.sub(r"/(index|README)$", "", slug, flags=re.I) or "/"
     return base_url.rstrip("/") + urllib.parse.quote(slug)
 
 

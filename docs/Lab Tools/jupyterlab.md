@@ -2,6 +2,7 @@
 sidebar_position: 6
 ---
 
+<!-- embed:start -->
 # Jupyterlab
 
 This development environment is using JupyterLab, a web-based interactive development environment.
@@ -68,3 +69,5 @@ Holds chat history between learner and Tai, and learner message input field
   | GPT Image 2 | `gpt-image-2` |
   | GPT Image 1.5 | `gpt-image-1.5` |
   | GPT-Image-1-Mini | `gpt-image-1-mini` | 
+
+<!-- embed:end -->

@@ -3,6 +3,7 @@ import CodeEngine from './_CodeEngine.mdx'
 import CloudIDEDatabases from './_CloudIDEDatabases.mdx'
 import Disclaimer from './_CloudIDEDisclaimer.mdx'
 
+<!-- embed:start -->
 # Cloud IDE Kubernetes
 
 _Cloud IDE with Kubernetes_ is a VS Code-like IDE. It is enabled for working with Docker and Kubernetes. The docker CLI is installed and available in the terminal. The Kubernetes kubectl CLI is also available in the terminal.
@@ -21,3 +22,4 @@ _Cloud IDE with Kubernetes_ is a VS Code-like IDE. It is enabled for working wit
 
 <Disclaimer/>
 
+<!-- embed:end -->

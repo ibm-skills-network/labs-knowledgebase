@@ -25,6 +25,20 @@ jobs:
       - name: Build website
         run: yarn build
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - name: Embed docs
+        # Reuses embeddings from the live embeddings.json; only changed chunks hit watsonx
+        run: |
+          pip install -r scripts/requirements.txt
+          python scripts/embed_kb.py
+        env:
+          WATSONX_AI_APIKEY: ${{ secrets.WATSONX_AI_APIKEY }}
+          WATSONX_AI_PROJECT_ID: ${{ secrets.WATSONX_AI_PROJECT_ID }}
+
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:

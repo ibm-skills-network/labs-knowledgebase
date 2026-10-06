@@ -3,6 +3,7 @@ import CodeEngine from './_CodeEngine.mdx'
 import CloudIDEDatabases from './_CloudIDEDatabases.mdx'
 import Disclaimer from './_CloudIDEDisclaimer.mdx'
 
+<!-- embed:start -->
 # Cloud IDE Openshift
 
 _Cloud IDE with OpenShift_ is a VS Code-like IDE. It is enabled for working with Docker and OpenShift. The docker CLI is installed and available in the terminal. The OpenShift oc CLI is also available in the terminal.
@@ -20,3 +21,5 @@ _Cloud IDE with OpenShift_ is a VS Code-like IDE. It is enabled for working with
 ---
 
 <Disclaimer/>
+
+<!-- embed:end -->

@@ -2,6 +2,7 @@
 sidebar_position: 20
 ---
 
+<!-- embed:start -->
 # Vibe Coding Studio
 
 Vibe Coding Studio is a development environment designed for “vibe coding,” where developers and AI collaborate fluidly in real time. It enables rapid prototyping, live execution, and iterative refinement of web applications, all within a browser-based workspace that supports multiple LLM backends.
@@ -72,3 +73,5 @@ Things to know about Vibe Coding Studio:
 - OpenAI gpt-5 models in particular may respond slowly, please be patient
 - If Vibe Coding Studio stops responding, please try refreshing the page
 - Vibe Coding Studio may occasionally "forget" to create files during execution and instead respond in chat with the code. You can try asking "please actually create the files" to prompt it to actually create the files.
+
+<!-- embed:end -->

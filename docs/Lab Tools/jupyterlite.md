@@ -2,6 +2,7 @@
 sidebar_position: 7
 ---
 
+<!-- embed:start -->
 # Jupyterlite
 
 This development environment is using JupyterLite, a web-based interactive development environment.
@@ -21,3 +22,5 @@ Tai is located on the left side of the JupyterLite interface.
 
 #### Description
 Holds chat history between learner and Tai, and learner message input field!
+
+<!-- embed:end -->

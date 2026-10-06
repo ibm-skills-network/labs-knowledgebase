@@ -2,6 +2,7 @@
 sidebar_position: 8
 ---
 
+<!-- embed:start -->
 # Linux Desktop
 
 This development environment is using Linux Desktop, a server operating system based on Ubuntu. It offers a variety of features and tools for managing server resources, networks, and services. The Linux Desktop interface is similar to a regular Linux desktop, making it easy to navigate and use.
@@ -21,3 +22,5 @@ Tai is located on the left side of the Linux Desktop interface.
 
 #### Description
 Holds chat history between learner and Tai, and learner message input field
+
+<!-- embed:end -->

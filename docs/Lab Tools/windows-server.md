@@ -2,6 +2,7 @@
 sidebar_position: 11
 ---
 
+<!-- embed:start -->
 # Windows Server
 
 This development environment is using Windows Server, a server operating system developed by Microsoft. It offers a variety of features and tools for managing server resources, networks, and services. The Windows Server interface is similar to a regular Windows desktop, making it easy to navigate and use.
@@ -21,3 +22,5 @@ Tai is located on the left side of the Windows Server interface.
 
 #### Description
 Holds chat history between learner and Tai, and learner message input field
+
+<!-- embed:end -->

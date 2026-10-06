@@ -2,6 +2,7 @@
 sidebar_position: 5
 ---
 
+<!-- embed:start -->
 # Datasette
 
 This development environment is using Datasette, a tool for exploring and analyzing SQL data. With its integrated set of data analysis tools, Datasette allows users to explore patterns in their data and easily share their findings with the world as an interactive website. From scientists to data journalists, Datasette has been embraced by a wide range of users for its ease of use and impressive capability.
@@ -21,3 +22,5 @@ Tai is located on the left side of the Datasette interface.
 
 #### Description
 Holds chat history between learner and Tai, and learner message input field
+
+<!-- embed:end -->

@@ -3,6 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
+<!-- embed:start -->
 # Introduction
 
 Welcome to the **Skills Network Labs Knowledgebase**. Labs are hands-on learning activities designed to help you practice and apply the concepts you learn in a course. They provide an interactive environment where you can write, test, and run code, experiment with tools, and complete exercises that reinforce your understanding.
@@ -17,3 +18,5 @@ Labs allow you to:
 - Access terminals or command lines to run commands and scripts.
 - Work with databases, cloud services, containers, or orchestration platforms depending on the focus of the lab.
 - Follow step-by-step instructions to complete tasks and build solutions.
+
+<!-- embed:end -->

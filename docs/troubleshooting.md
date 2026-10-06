@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import TOCInline from '@theme/TOCInline';
 
+<!-- embed:start -->
 # Troubleshooting
 
 :::warning
@@ -197,3 +198,5 @@ If you encounter an issue within your lab session, reset the lab:
 1. Click the **Reset Lab** button at the bottom of the left menu bar for instructions on how to reset the lab.
 2. You will be instructed to  **Log out** to complete the reset.  
 3. After logging out, reopen the lab.  
+
+<!-- embed:end -->
